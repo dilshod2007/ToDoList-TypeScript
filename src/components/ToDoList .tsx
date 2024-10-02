@@ -27,7 +27,7 @@ const ToDoList: React.FC = () => {
 
   const handleToggleComplete = (id: number) => {
     setTodos(todos.map(todo =>
-      todo.id === id ? { ...todo, completed: !todo.completed, data: new Date() } : todo
+      todo.id === id ? { ...todo, completed: !todo.completed, data: new Date () } : todo
     ));
   };
 
@@ -38,7 +38,7 @@ const ToDoList: React.FC = () => {
   };
 
   return (
-    <div className="todo-container">
+    <div className="todo-container  ">
       <h1 className="todo-title">ToDo List</h1>
       <div className="todo-input-container">
         <input

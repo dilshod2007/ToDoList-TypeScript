@@ -1,7 +1,12 @@
 .todo-container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
+    background-color: rgba(128, 128, 128, 0.27);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
+    
   }
   
   .todo-title {
